@@ -1,0 +1,57 @@
+# ─────────────────────────────────────────────
+# 烽火长城 · Git 忽略规则
+# ─────────────────────────────────────────────
+
+# 操作系统
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+
+# Office / WPS 临时文件与锁文件
+~$*.doc
+~$*.docx
+~$*.xls
+~$*.xlsx
+~$*.ppt
+~$*.pptx
+*.tmp
+.~lock.*
+
+# 日志与缓存
+*.log
+npm-debug.log*
+yarn-error.log*
+.cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+out/
+target/
+
+# 环境变量与本地配置
+.env
+.env.local
+*.local
+
+# 压缩包（如需归档请使用发布 Release，而非直接提交）
+*.zip
+*.rar
+*.7z
